@@ -1,2 +1,2 @@
-# Hehn-E-commerce
-An e-commerce site with shopping cart functionality using the Stripe API for checkouts
+# js-cart-setup
+ADD ITEMS TO CART JAVASCRIPT PROJECT
