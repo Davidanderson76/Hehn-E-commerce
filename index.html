@@ -5,13 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+
   <!-- bootstrap css -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- main css -->
   <link rel="stylesheet" href="css/style.css">
-
   <!-- font awesome -->
   <link rel="stylesheet" href="css/all.css">
+  
   <title>Hehn House</title>
   <style>
   </style>
@@ -26,14 +29,15 @@ https://www.iconfinder.com/icons/2427887/dessert_donut_doughnut_fat_sweets_icon
 Creative Commons (Attribution 3.0 Unported);
 https://www.iconfinder.com/korawan_m
      -->
-    <nav class="navbar navbar-expand-lg px-4">
-      <a class="navbar-brand" href="#home"><img src="img/logo.svg" alt=""></a>
+    <nav class="navbar navbar-expand-lg px-4 static-top">
+      <a class="navbar-brand " href="#home"><img src="img/logo.svg" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
         <span class="toggler-icon"><i class="fas fa-bars"></i></span>
       </button>
-      <div class="collapse navbar-collapse" id="myNav">
+
+      <div class="collapse navbar-collapse w-100 order-1 order-md-0 dual-collapse2" id="myNav">
         
-        <ul class="navbar-nav mx-auto text-capitalize">
+        <ul class="navbar-nav mr-auto text-capitalize">
           <li class="nav-item active">
             <a class="nav-link" href="#home">home</a>
           </li>
@@ -44,33 +48,35 @@ https://www.iconfinder.com/korawan_m
             <a class="nav-link" href="#store">store</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#store">Discord</a>
+            <a class="nav-link" href="https://discord.gg/P2X5FfC9wx" target="_blank" rel="noopener noreferrer" > Discord</a>
           </li>
-
-          <li class="nav-item">
-            <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
-              <span class="cart-info__icon mr-lg-3"><i class="fas fa-shopping-cart"></i></span>
-              <p class="mb-0 text-capitalize"><span id="item-count"> </span> CART ITEMS $<span class="item-total"></span></p>
-            </div>
-          </li>
-
         </ul>
-              <!-- <div class="nav-info-items d-none d-lg-flex "> -->
-                <!-- single info -->
-                <!-- <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
-                  <span class="info-icon mx-lg-3">
-                    <i class="fab fa-discord"></i></span>
-                  <p class="mb-0">Discord Server</p>
-                </div> -->
-                <!-- end of single info -->
-                <!-- single info -->
-                <!-- <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
-                  <span class="cart-info__icon mr-lg-3"><i class="fas fa-shopping-cart"></i></span>
-                  <p class="mb-0 text-capitalize"><span id="item-count">2 </span> items - $<span class="item-total">10.49</span></p>
-                </div> -->
-                <!-- end of single info -->
-              <!-- </div> -->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+                <span class="cart-info__icon mr-lg-3"><i class="fas fa-shopping-cart"></i></span>
+                <p class="mb-0 text-capitalize"><span id="item-count"> </span> CART ITEMS $<span class="item-total"></span></p>
+              </div>
+            </li>
+          </ul>
+                <!-- <div class="nav-info-items d-none d-lg-flex "> -->
+                  <!-- single info -->
+                  <!-- <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+                    <span class="info-icon mx-lg-3">
+                      <i class="fab fa-discord"></i></span>
+                    <p class="mb-0">Discord Server</p>
+                  </div> -->
+                  <!-- end of single info -->
+                  <!-- single info -->
+                  <!-- <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+                    <span class="cart-info__icon mr-lg-3"><i class="fas fa-shopping-cart"></i></span>
+                    <p class="mb-0 text-capitalize"><span id="item-count">2 </span> items - $<span class="item-total">10.49</span></p>
+                  </div> -->
+                  <!-- end of single info -->
+                <!-- </div> -->
       </div>
+
+      
     </nav>
     <!-- end of nav -->
 
@@ -136,7 +142,23 @@ https://www.iconfinder.com/korawan_m
           <p class="my-4 text-muted w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquam voluptas
             beatae vitae expedita consectetur nesciunt quia deserunt asperiores facere fuga dicta fugiat corrupti et omnis
             porro at dolorum! Ad!</p>
+
+
           <a href="#store" class="btn btn-outline-secondary btn-black text-uppercase ">shop</a>
+
+          <a href="https://twitter.com/HehnHouse" 
+          class="btn btn-outline-secondary btn-black text-uppercase "
+          target="_blank" 
+          rel="noopener noreferrer">
+          twitter
+          </a>
+
+          <a href="https://www.youtube.com/channel/UCXb8jpbhHZIZJ_Ptqnu0dSA" 
+            class="btn btn-outline-secondary btn-black text-uppercase "
+            target="_blank" 
+            rel="noopener noreferrer">
+            youtube
+          </a>
 
         </div>
         <div class="col-10 mx-auto col-md-6 align-self-center my-5">
@@ -480,7 +502,8 @@ https://www.iconfinder.com/korawan_m
 
 
   <!-- jquery -->
-  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+  
   <!-- bootstrap js -->
   <script src="js/bootstrap.bundle.min.js"></script>
   <!-- script js -->
